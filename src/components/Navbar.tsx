@@ -1,6 +1,10 @@
 
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
+import logo from "@/assets/images/logo.png";
+
+
+
 
 const navLinks = [
   { name: 'Home', href: '#home' },
@@ -58,7 +62,7 @@ const Navbar: React.FC = () => {
             className="text-xl font-display font-semibold tracking-tight relative z-[60] flex items-center"
           >
             <img 
-              src="/lovable-uploads/fe68c6a6-9600-4930-8275-b22504d86119.png" 
+              src={logo}
               alt="SK Logo" 
               className="h-10 w-10 transform rotate-[270deg] rounded-lg object-cover p-1"
             />

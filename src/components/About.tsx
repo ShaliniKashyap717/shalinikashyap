@@ -2,6 +2,9 @@
 import React from 'react';
 import { Mail, MapPin, Award, BookOpen } from 'lucide-react';
 import AnimatedSection from './AnimatedSection';
+import aboutImage from "@/assets/images/about.png";
+
+
 
 const About: React.FC = () => {
   return (
@@ -23,7 +26,7 @@ const About: React.FC = () => {
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-tr from-accent/30 to-primary/20" />
                 <div className="absolute inset-[3px] rounded-2xl overflow-hidden">
                   <img 
-                    src="/lovable-uploads/e413134c-73c6-4f19-9b15-4a1bec0bb2c6.png" 
+                    src={aboutImage}
                     alt="Shalini Kashyap" 
                     className="w-full h-full object-cover object-center" 
                   />

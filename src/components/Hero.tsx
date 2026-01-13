@@ -4,6 +4,7 @@ import AnimatedSection from './AnimatedSection';
 import PortfolioToggle from './PortfolioToggle';
 import Typed from 'typed.js';
 import AnimatedHeading from './AnimatedHeading';
+import heroImage from "@/assets/images/hero.png";
 
 interface HeroProps {
   isCLI: boolean;
@@ -66,7 +67,7 @@ const Hero: React.FC<HeroProps> = ({ isCLI, onToggle }) => {
                 </a>
                 
                 <a 
-                  href="https://drive.google.com/file/d/1e9Rx_EjXHht1IqCmS4wyCqtITT44kLI5/view?usp=sharing" 
+                  href="https://drive.google.com/file/d/10vnoyLJLHuYnqANl02cdd8wnNhFRUB_U/view?usp=sharing" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="px-6 py-3 bg-secondary text-secondary-foreground font-medium rounded-lg transition-all duration-300 hover:bg-secondary/80"
@@ -106,7 +107,7 @@ const Hero: React.FC<HeroProps> = ({ isCLI, onToggle }) => {
                 <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-primary/20 to-accent/40 animate-pulse-soft" />
                 <div className="absolute inset-4 rounded-2xl overflow-hidden">
                   <img 
-                    src="/lovable-uploads/e413134c-73c6-4f19-9b15-4a1bec0bb2c6.png" 
+                    src={heroImage} 
                     alt="Shalini Kashyap" 
                     className="w-full h-full object-cover object-center rounded-xl" 
                   />
